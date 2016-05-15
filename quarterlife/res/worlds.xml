@@ -1,0 +1,14 @@
+<worldlist>
+	<world
+		name="menu"
+		file="res/worlds/menu.wld"
+	/>
+	<world
+		name="ch1_intro"
+		file="res/worlds/ch1_intro.wld"
+	/>
+	<world
+		name="ch1_world1"
+		file="res/worlds/ch1_world1.wld"
+	/>
+</worldlist>

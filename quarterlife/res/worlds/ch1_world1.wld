@@ -1,0 +1,59 @@
+<world
+	class="com.rt96h.hl3.world.IngameWorld"
+	>
+	<camera 
+		class="com.rt96h.graphics.camera.PerspectiveCamera"
+		fov="90"
+		aspect="1.666667"
+	/>
+	
+	<object
+		class="com.rt96h.hl3.entity.GameObjectPlayer"
+		model="model.gun"
+		texture="texture.level"
+		layer="2"
+	/>
+	
+	<object 
+		model="model.floor"
+		texture="texture.grass"
+	/>
+	
+	<object 
+		model="model.level1"
+		texture="texture.level2"
+		z="5"
+		y="0.01"
+		x="5"
+	/>
+	
+	<object 
+		model="model.ramp"
+		texture="texture.level"
+		x="2"
+	/>
+	
+	<object 
+		model="model.cone"
+		texture="texture.level"
+		x="-4"
+		z="4"
+	/>
+	
+	<object 
+		model="model.block"
+		texture="texture.level"
+		x="8"
+		z="-1"
+	/>
+	
+	<object 
+		model="model.block"
+		texture="texture.level"
+		x="16"
+		y="1"
+		z="1"
+	/>
+	
+	
+</world>

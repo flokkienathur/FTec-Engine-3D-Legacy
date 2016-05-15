@@ -1,0 +1,99 @@
+<texturelist>
+	<texture
+	    path="res/textures/menubackground.jpg"
+	    width="1"
+	    height="1"
+	    >
+	    <sprite
+	        name="texture.background"
+	        x="0"
+	        y="0"
+	        width="1"
+	        height="1"
+	        />
+	</texture>
+	
+	<texture
+	    path="res/textures/ch1_intro_gman1.png"
+	    width="1"
+	    height="1"
+	    >
+	    
+	    <sprite
+	        name="texture.ch1_intro_gman1"
+	        x="0"
+	        y="0"
+	        width="1"
+	        height="1"
+	        />
+	</texture>
+	
+	<texture
+	    path="res/textures/ch1_intro_gman2.png"
+	    width="1"
+	    height="1"
+	    >
+	    
+	    <sprite
+	        name="texture.ch1_intro_gman2"
+	        x="0"
+	        y="0"
+	        width="1"
+	        height="1"
+	        />
+	</texture>
+	
+	<texture
+	    path="res/textures/stone.jpg"
+	    width="1"
+	    height="1"
+	    >
+	    
+	    <sprite
+	        name="texture.level"
+	        x="0"
+	        y="0"
+	        width="1"
+	        height="1"
+	        />
+	    
+	    <sprite
+	        name="texture.level2"
+	        x="0"
+	        y="0"
+	        width="8"
+	        height="8"
+	        />
+	</texture>
+	
+	<texture
+	    path="res/textures/grass.jpg"
+	    width="1"
+	    height="1"
+	    >
+	    
+	    <sprite
+	        name="texture.grass"
+	        x="0"
+	        y="0"
+	        width="8"
+	        height="8"
+	        />
+	</texture>
+	
+	<texture
+	    path="res/textures/gun.png"
+	    width="1"
+	    height="1"
+	    >
+	    
+	    <sprite
+	        name="texture.weapon_shotgun"
+	        x="0"
+	        y="0"
+	        width="1"
+	        height="1"
+	        />
+	</texture>
+	
+</texturelist>

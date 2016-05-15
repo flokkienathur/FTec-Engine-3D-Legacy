@@ -1,0 +1,7 @@
+<weaponlist>
+	<weapon 
+		name="shotgun"
+		model="model.weapon_shotgun"
+		texture="texture.weapon_shotgun"
+	/>
+</weaponlist>

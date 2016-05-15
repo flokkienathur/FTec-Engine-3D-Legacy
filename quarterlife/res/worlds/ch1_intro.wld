@@ -1,0 +1,21 @@
+<world>
+	<camera 
+		class="com.rt96h.graphics.camera.Camera2D"
+		width="1280"
+		height="720"
+	/>
+	
+	<object 
+		class="com.rt96h.hl3.entity.GameObjectGMan"
+		width="1280"
+		height="720"
+		texture="texture.ch1_intro_gman1"
+		texture2="texture.ch1_intro_gman2"
+		text="$resource:res/worlds/ch1_intro_text"
+		time="25"
+		fade-in="2"
+		fade-out="21"
+		world="ch1_world1"
+	/>
+	
+</world>

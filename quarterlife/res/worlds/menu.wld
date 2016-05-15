@@ -1,0 +1,52 @@
+<world
+	class="com.rt96h.hl3.world.MainMenuWorld"
+	>
+	<camera 
+		class="com.rt96h.graphics.camera.Camera2D"
+		width="1280"
+		height="720"
+	/>
+	
+	<object 
+		class="com.rt96h.world.gui.GuiBackground"
+		texture="texture.background"
+		width="1280"
+		height="720"
+	/>
+	
+	<object 
+		class="com.rt96h.world.gui.GuiLabel"
+		text="Quarterlife 3"
+		scale="5"
+	/>
+	
+	<object 
+		class="com.rt96h.world.gui.GuiButton"
+		x="16"
+		y="100"
+		text="Start Game"
+		tag="startGame"
+		width="128"
+		height="32"
+	/>
+	<object
+		class="com.rt96h.world.gui.GuiButton"
+		x="16"
+		y="150"
+		text="Options"
+		tag="options"
+		width="128"
+		height="32"
+	/>
+	<object 
+		class="com.rt96h.world.gui.GuiButton"
+		x="16"
+		y="200"
+		width="128"
+		height="32"
+		text="Exit"
+		tag="exit"
+	/>
+	
+	
+</world>

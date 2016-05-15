@@ -1,0 +1,87 @@
+<modellist>
+	
+	<model name="model.floor">
+		<visual extern="res/models/floor.obj">
+		</visual>
+	</model>
+	
+	<model name="model.ramp">
+		<visual extern="res/models/ramp.obj">
+		</visual>
+	</model>
+	
+	<model name="model.cone">
+		<visual extern="res/models/cone.obj">
+		</visual>
+	</model>
+	
+	<model name="model.block">
+		<visual extern="res/models/block.obj">
+		</visual>
+	</model>
+	
+	<model name="model.level1">
+		<visual extern="res/models/level1.obj">
+		</visual>
+	</model>
+	
+	<model name="model.weapon_shotgun">
+		<visual extern="res/models/gun.obj">
+		</visual>
+	</model>
+	
+	<model name="model.skybox">
+		<visual>
+			<vertex name="Bottom Vertices"
+				x="-0.5" y="-0.5" z="-0.5" 
+				u="0" v="1"
+				/>
+			<vertex 
+				x="0.5" y="-0.5" z="-0.5" 
+				u="1" v="1"
+				/>
+			<vertex 
+				x="0.5" y="-0.5" z="0.5" 
+				u="0" v="1" 
+				/>
+			<vertex 
+				x="-0.5" y="-0.5" z="0.5" 
+				u="1" v="1" 
+				/>
+				
+				
+			<vertex name="Top Vertices"
+				x="-0.5" y="0.5" z="-0.5" 
+				u="0" v="0" 
+				/>
+			<vertex 
+				x="0.5" y="0.5" z="-0.5" 
+				u="1" v="0"
+				/>
+			<vertex 
+				x="0.5" y="0.5" z="0.5" 
+				u="0" v="0" 
+				/>
+			<vertex 
+				x="-0.5" y="0.5" z="0.5" 
+				u="1" v="0" 
+				/>
+				
+			
+			<triangles>
+				4,1,0,
+				4,5,1,
+				
+				5,2,1,
+				5,6,2,
+				
+				6,3,2,
+				6,7,3,
+				
+				7,0,3,
+				7,4,0
+			</triangles>
+		</visual>
+	</model>
+	
+</modellist>
